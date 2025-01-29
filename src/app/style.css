@@ -1,9 +1,10 @@
-.container{
+.pres-ab-container {
     max-width: 1320px;
     margin: auto;
     padding: 0 20px;
   }
-  .banner {
+  
+  .pres-ab-banner {
     position: relative;
     height: 484px;
     background-color: #103076;
@@ -13,42 +14,42 @@
     background-repeat: no-repeat;
   }
   
-  .row {
+  .pres-ab-row {
     height: 484px;
     display: flex;
     gap: 15px;
     align-items: center;
   }
   
-  .banner-content {
+  .pres-ab-banner-content {
     width: 50%;
   }
   
-  .breadcrumb {
+  .pres-ab-breadcrumb {
     font-size: 14px;
     font-weight: 500;
   }
   
-  .navigation a {
+  .pres-ab-navigation a {
     color: white;
     text-decoration: none;
   }
   
-  .navigation span {
+  .pres-ab-navigation span {
     color: #ccc;
   }
   
-  .no-underline {
+  .pres-ab-no-underline {
     text-decoration: underline;
   }
   
-  .page-heading {
+  .pres-ab-page-heading {
     font-size: 48px;
     font-weight: 700;
     margin: 22px 0 20px 0;
   }
   
-  .page-heading-h2 {
+  .pres-ab-page-heading-h2 {
     font-size: 14px;
     font-weight: 500;
     line-height: 21px;
@@ -56,15 +57,16 @@
     padding-right: 20px;
   }
   
-  .vacation-section {
+  .pres-ab-vacation-section {
     max-width: 660px;
     margin: auto;
   }
   
-  .static-page {
+  .pres-ab-static-page {
     margin: 70px 8px;
   }
-  .static-page h2 {
+  
+  .pres-ab-static-page h2 {
     font-size: 2.5rem;
     color: #103076;
     line-height: 3.125rem;
@@ -73,7 +75,7 @@
     padding-bottom: 16px;
   }
   
-  .static-page-subtitle {
+  .pres-ab-static-page-subtitle {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6rem;
@@ -81,49 +83,50 @@
     padding-top: 16px;
   }
   
-  .about-steps {
+  .pres-ab-about-steps {
     padding-bottom: 40px;
   }
-  .about-steps .common-container {
+  
+  .pres-ab-about-steps .pres-ab-common-container {
     display: flex;
     justify-content: space-between;
     text-align: center;
   }
   
-  .card {
+  .pres-ab-card {
     max-width: 25%;
   }
   
-  .book-card {
+  .pres-ab-book-card {
     margin-top: 20px;
-  }
+  }  
   
-  .arrow {
+  .pres-ab-arrow {
     max-width: 12.5%;
     position: relative;
     top: 10px;
   }
   
-  .arrowIcon {
+  .pres-ab-arrowIcon {
     position: absolute;
     top: 70px;
   }
   
-  .about-title {
+  .pres-ab-about-title {
     font-size: 20px;
     color: rgb(1, 53, 115);
     font-weight: 700;
     padding-bottom: 16px;
   }
   
-  .Vacation-btn {
+  .pres-ab-Vacation-btn {
     display: flex;
     justify-content: center;
     padding-top: 10px;
     margin-top: 24px;
   }
   
-  .Vacation-btn button {
+  .pres-ab-Vacation-btn button {
     border: none;
     outline: none;
     background-color: #00cd92;
@@ -134,26 +137,27 @@
     border-radius: 7px;
   }
   
-  .here-to-help {
+  .pres-ab-here-to-help {
     margin: 40px 0;
     display: flex;
     gap: 100px;
     align-items: center;
   }
-  .helping-left {
+  
+  .pres-ab-helping-left {
     width: 50%;
   }
   
-  .helping-left img {
+  .pres-ab-helping-left img {
     max-width: 100%;
     height: auto;
   }
   
-  .helping-right {
+  .pres-ab-helping-right {
     width: 50%;
   }
   
-  .help-heading {
+  .pres-ab-help-heading {
     font-size: 40px;
     color: #013573;
     margin: 32px 0;
@@ -161,24 +165,24 @@
     line-height: 50px;
   }
   
-  .help-block {
+  .pres-ab-help-block {
     display: flex;
     gap: 15px;
     align-items: start;
     margin-bottom: 40px;
   }
   
-  .here-to-help-title {
+  .pres-ab-here-to-help-title {
     color: #013573;
     font-size: 20px;
     margin: 0 0 16px 0;
   }
   
-  .here-to-help-subtitle {
+  .pres-ab-here-to-help-subtitle {
     font-size: 16px;
   }
   
-  .status-section {
+  .pres-ab-status-section {
     background-color: #013573;
     color: white;
     font-size: 30px;
@@ -190,35 +194,37 @@
     margin: 40px;
     padding: 70px 0;
   }
-  .status {
+  
+  .pres-ab-status {
     width: 63%;
     margin: auto;
     text-align: center;
   }
+  /* --  */
   
-  .status-section .color-accent {
+  .pres-ab-status-section .pres-ab-color-accent {
     color: #00cd92;
   }
   
-  .statusIcon {
+  .pres-ab-statusIcon {
     position: absolute;
     bottom: 30px;
     left: 100px;
   }
   
-  .family-section {
+  .pres-ab-family-section {
     display: flex;
     gap: 30px;
     align-items: center;
     padding: 70px 0;
   }
   
-  .family-section-left {
+  .pres-ab-family-section-left {
     float: left;
     width: 50%;
   }
   
-  .family-section-left h2 {
+  .pres-ab-family-section-left h2 {
     font-size: 40px;
     line-height: 50px;
     font-weight: 700;
@@ -227,7 +233,7 @@
     margin: 16px 0;
   }
   
-  .family-section-left p {
+  .pres-ab-family-section-left p {
     font-size: 16px;
     margin: 10px 0;
     font-weight: 400;
@@ -235,12 +241,12 @@
     width: 82%;
   }
   
-  .upnext-link {
+  .pres-ab-upnext-link {
     text-decoration: underline;
     color: #103076;
   }
   
-  .family-btn button {
+  .pres-ab-family-btn button {
     border: none;
     outline: none;
     background-color: #00cd92;
@@ -252,28 +258,32 @@
     margin-top: 24px;
   }
   
+  
   @media screen and (min-width: 769px) and (max-width: 1279px) {
-    .banner {
+    .pres-ab-banner {
       height: 334px;
       padding: 0 30px;
       background-position: 100% 100%;
     }
-    .row {
+  
+    .pres-ab-row {
       height: 334px;
       display: flex;
       align-items: center;
     }
-    .banner-content {
+  
+    .pres-ab-banner-content {
       width: 80%;
     }
-    .status {
+  
+    .pres-ab-status {
       width: 85%;
       margin: auto;
       text-align: center;
       font-size: 16px;
     }
   
-    .statusIcon {
+    .pres-ab-statusIcon {
       position: absolute;
       bottom: 10px;
       left: 50px;
@@ -281,263 +291,314 @@
       height: 65px;
     }
   }
-  /* --------- */
+  
   @media screen and (min-width: 992px) and (max-width: 1028px) {
-    .here-to-help {
+    .pres-ab-here-to-help {
       display: flex;
       flex-direction: column;
     }
-    .helping-left {
+  
+    .pres-ab-helping-left {
       width: 100%;
     }
-    .helping-right {
+  
+    .pres-ab-helping-right {
       width: 100%;
     }
-    .help-block {
+  
+    .pres-ab-help-block {
       display: flex;
     }
-    .family-section {
+  
+    .pres-ab-family-section {
       display: flex;
       flex-direction: column;
     }
-    .family-section-left {
+  
+    .pres-ab-family-section-left {
       float: left;
       width: 100%;
     }
-    .family-section-left p {
+  
+    .pres-ab-family-section-left p {
       width: 100%;
     }
   }
   
   @media screen and (min-width: 769px) and (max-width: 991px) {
-    .here-to-help {
+    .pres-ab-here-to-help {
       display: flex;
       flex-direction: column;
     }
-    .helping-left {
+  
+    .pres-ab-helping-left {
       display: none;
     }
-    .helping-right {
+  
+    .pres-ab-helping-right {
       width: 100%;
     }
-    .help-block {
+  
+    .pres-ab-help-block {
       display: flex;
     }
-    .family-section {
+  
+    .pres-ab-family-section {
       display: flex;
       flex-direction: column;
     }
-    .family-section-left {
+  
+    .pres-ab-family-section-left {
       float: left;
       width: 100%;
     }
-    .family-section-left p {
+  
+    .pres-ab-family-section-left p {
       width: 100%;
     }
-    .family-section-right {
+  
+    .pres-ab-family-section-right {
       display: none;
     }
   }
-  /* ------------- */
   
   @media screen and (min-width: 481px) and (max-width: 768px) {
-    .banner {
+    .pres-ab-banner {
       height: 334px;
       padding: 0 30px;
       background-position: 100% 100%;
     }
-    .row {
+  
+    .pres-ab-row {
       height: 334px;
       display: flex;
       align-items: center;
     }
-    .banner-content {
+  
+    .pres-ab-banner-content {
       width: 90%;
     }
   
-   .page-heading  {
+    .pres-ab-page-heading {
       font-size: 1.625rem;
     }
   
-    .static-page h2 {
+    .pres-ab-static-page h2 {
       font-size: 1.5rem;
       line-height: 2.2rem;
     }
-    .about-steps .common-container {
+  
+    .pres-ab-about-steps .pres-ab-common-container {
       display: flex;
       flex-direction: column;
     }
-    .card {
+  
+    .pres-ab-card {
       max-width: 100%;
     }
-    .arrow {
+  
+    .pres-ab-arrow {
       display: none;
     }
-    .here-to-help {
+  
+    .pres-ab-here-to-help {
       display: flex;
       flex-direction: column;
     }
-    .helping-left {
+  
+    .pres-ab-helping-left {
       display: none;
     }
-    .helping-right {
+  
+    .pres-ab-helping-right {
       width: 100%;
     }
-    .help-block {
+  
+    .pres-ab-help-block {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-    .here-to-help-title,
-    .here-to-help-subtitle {
+  
+    .pres-ab-here-to-help-title,
+    .pres-ab-here-to-help-subtitle {
       text-align: center;
     }
-    .here-to-help-title {
+  
+    .pres-ab-here-to-help-title {
       font-size: 16px;
     }
-    .status {
+  
+    .pres-ab-status {
       width: 85%;
       margin: auto;
       text-align: center;
       font-size: 16px;
     }
   
-    .statusIcon {
+    .pres-ab-statusIcon {
       position: absolute;
       bottom: 10px;
       left: 50px;
       width: 70px;
       height: 65px;
     }
-    .family-section {
+  
+    .pres-ab-family-section {
       display: flex;
       flex-direction: column;
     }
-    .family-section-left {
+  
+    .pres-ab-family-section-left {
       float: left;
       width: 100%;
     }
-    .family-section-left img {
+  
+    .pres-ab-family-section-left img {
       display: none;
     }
-    .family-section-left h2{
+  
+    .pres-ab-family-section-left h2 {
       font-size: 24px;
       text-align: center;
       padding-right: 0;
     }
-    .family-section-left p {
+  
+    .pres-ab-family-section-left p {
       width: 100%;
     }
-    .family-section-right {
+  
+    .pres-ab-family-section-right {
       display: none;
     }
   }
   
   @media screen and (min-width: 0) and (max-width: 480px) {
-    .banner {
+    .pres-ab-banner {
       height: 234px;
       padding: 0 20px;
       background-position: 100% 100%;
     }
-    .row {
+  
+    .pres-ab-row {
       height: 234px;
       display: flex;
       align-items: center;
       padding: 0;
     }
-    .banner-content {
+  
+    .pres-ab-banner-content {
       width: 100%;
       padding: 0;
     }
-    .page-heading {
+  
+    .pres-ab-page-heading {
       font-size: 26px;
       font-weight: 700;
       margin: 22px 0 20px 0;
     }
-    .static-page h2 {
+  
+    .pres-ab-static-page h2 {
       margin-top: 60px;
       font-size: 1.5rem;
       line-height: 2.2rem;
     }
   
-    .about-steps .common-container {
+    .pres-ab-about-steps .pres-ab-common-container {
       display: flex;
       flex-direction: column;
     }
-    .card {
+  
+    .pres-ab-card {
       max-width: 100%;
     }
-    .arrow {
+  
+    .pres-ab-arrow {
       display: none;
     }
-    .here-to-help {
+  
+    .pres-ab-here-to-help {
       display: flex;
       flex-direction: column;
     }
-    .help-heading {
+  
+    .pres-ab-help-heading {
       font-size: 24px;
     }
-    .helping-left {
+  
+    .pres-ab-helping-left {
       display: none;
     }
-    .helping-right {
+  
+    .pres-ab-helping-right {
       width: 100%;
     }
-    .helping-right img {
+  
+    .pres-ab-helping-right img {
       display: none;
     }
-    .help-block {
+  
+    .pres-ab-help-block {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-    .here-to-help-title,
-    .here-to-help-subtitle {
+  
+    .pres-ab-here-to-help-title,
+    .pres-ab-here-to-help-subtitle {
       text-align: center;
     }
-    .here-to-help-title {
+  
+    .pres-ab-here-to-help-title {
       font-size: 16px;
     }
-    .status-section {
+  
+    .pres-ab-status-section {
       margin: 20px;
     }
   
-    .status {
+    .pres-ab-status {
       width: 90%;
       margin: auto;
       text-align: center;
       font-size: 16px;
     }
   
-    .statusIcon {
+    .pres-ab-statusIcon {
       position: absolute;
       bottom: 10px;
       left: 25px;
       width: 60px;
       height: 55px;
     }
-    .family-section {
+  
+    .pres-ab-family-section {
       display: flex;
       flex-direction: column;
     }
   
-    .family-section-left {
+    .pres-ab-family-section-left {
       float: left;
       width: 100%;
     }
-    .family-section-left img {
+  
+    .pres-ab-family-section-left img {
       display: none;
     }
-    .family-section-left h2{
+  
+    .pres-ab-family-section-left h2 {
       font-size: 24px;
       text-align: center;
       padding-right: 0;
     }
-    .family-section-left p {
+  
+    .pres-ab-family-section-left p {
       width: 100%;
     }
-    .family-section-right {
+  
+    .pres-ab-family-section-right {
       display: none;
     }
   }
+  
   
